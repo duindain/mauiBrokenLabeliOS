@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="BrokenLabel.MainPage">
+
+    <ScrollView>
+        <Grid ColumnSpacing="4" WidthRequest="700">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <HorizontalStackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="Green">
+                <Label
+                    Text="Yes, Yes, without the oops! Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! You really think you can fly that thing? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should."
+                    LineBreakMode="WordWrap"/>           
+            </HorizontalStackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
+
